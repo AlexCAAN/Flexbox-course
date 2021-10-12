@@ -1,0 +1,70 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    display:flex ;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    
+}
+
+.content img {
+    height: 100%;
+}
+
+.item {
+    display: flex;
+    width: 50vw;
+    margin: 0.5vw;
+    outline: 2px solid lightgray;
+    border-radius: 4px;
+}
+
+.metadata {
+    margin-left: 20px;
+    line-height: 5px;
+    width: 32.8vw;
+}
+
+.associated > .content > .metadata {
+    display: flex;
+    align-items: center;
+}
+
+.metadata h1 {
+    font-weight: 900;
+}
+
+.metadata h3 {
+    padding-top: 25px;
+    font-weight: 900;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-group > .button {
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+}
+
+.button a {
+    color: lightseagreen;
+    padding: 35px 0px ;
+}
+
+.button {
+    transition: 1s;
+    padding: 0px 5px;
+}
+
+.button:hover {
+    background-color: lightgray;
+}
