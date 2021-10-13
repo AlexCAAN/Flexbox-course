@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Shit Yo!!</title>
+    <link rel="stylesheet" href="heading-bar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Explora&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3d1764cda9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="page-content">
+        <div class="header">
+            <div class="links-wrapper">
+                <a href="#" class="toggle" id="navHamburger">
+                    <i class="fas fa-bars"></i>
+                </a>
+                <a href="" class="link1">Carlos's Page</a>
+                <div class="link-wrapper">
+                    <a href="" class="link">Hello!</a>
+                    <a href="" class="link">See You!</a>
+                </div>
+                <div class="right-link">
+                    <a href="" class="link4"> I'm Lonely :(</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script>
+    const navHamburger = document.querySelector('#navHamburger');
+    navHamburger.addEventListener('click', (e) => {
+        navHamburger.parentElement.classList.toggle('active');
+    })
+
+</script>
+
+</html>
